@@ -1,0 +1,26 @@
+.container{
+    border: 1px dashed black;
+}
+.imageWrapper{
+    max-width: 80%;
+}
+.imageItem{
+    max-width: 100px;
+    position: relative;
+}
+
+.imageItem img{
+    max-width: 100%;
+}
+.delBtn{
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background: white;
+    border: transparent;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
