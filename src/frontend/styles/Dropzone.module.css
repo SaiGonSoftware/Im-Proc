@@ -1,17 +1,21 @@
 .container{
     border: 1px dashed black;
+    padding: 10px;
 }
 .imageWrapper{
     max-width: 80%;
+    display: flex;
 }
 .imageItem{
     max-width: 100px;
     position: relative;
+    margin: 10px;
 }
 
 .imageItem img{
     max-width: 100%;
 }
+
 .delBtn{
     color: red;
     font-weight: bold;
@@ -23,4 +27,18 @@
     border-radius: 50%;
     font-size: 20px;
     cursor: pointer;
+}
+
+.progressBar{
+    background-color: grey;
+    height: 35px;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.percentage{
+    background-color: #4CAF50;
+    height: 100%;
+    padding: 0.3%;
+    color: #fff;
 }
